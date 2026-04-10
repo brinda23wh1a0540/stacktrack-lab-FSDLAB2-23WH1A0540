@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import QuestionComponent from '../components/question/QuestionComponent';
 
 function QuestionPage() {
