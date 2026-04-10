@@ -7,21 +7,24 @@ import QuestionPage from "./pages/QuestionPage";
 function App() {
   return (
     <BrowserRouter>
-      {/* TODO: Replace this placeholder with Routes */}
 
-      <Routes>
+      <div className="App">
 
-        <Route
-          path="/"
-          element={<Home />}
-        />
+        <Routes>
 
-        <Route
-          path="/add-task"
-          element={<QuestionPage />}
-        />
+          <Route
+            path="/"
+            element={<Home />}
+          />
 
-      </Routes>
+          <Route
+            path="/add-task"
+            element={<QuestionPage />}
+          />
+
+        </Routes>
+
+      </div>
 
     </BrowserRouter>
   );

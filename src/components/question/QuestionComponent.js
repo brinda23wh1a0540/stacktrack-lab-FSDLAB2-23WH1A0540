@@ -33,7 +33,7 @@ function QuestionComponent() {
 
 
   return (
-    <div>
+    <div style={{ width: "400px" }}>
       {/* TODO: Replace this placeholder with your question set UI */}
       <h2>Add Task</h2>
 

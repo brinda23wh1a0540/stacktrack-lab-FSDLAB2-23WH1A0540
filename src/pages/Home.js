@@ -6,7 +6,7 @@ const LAB_ID = 'FSDLAB2';
 
 function Home() {
    return (
-    <div>
+    <div style={{ width: "400px" }}>
 
       <h1>Stack Track Lab</h1>
 
